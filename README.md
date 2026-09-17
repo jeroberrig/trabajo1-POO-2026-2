@@ -14,4 +14,4 @@ Docente: Walter Hugo Arboleda Mazo.
 [Ejercicio 5](https://github.com/jeroberrig/trabajo1-POO-2026-2/tree/main/Ejercicio-5-Prueba-escritorio)
 [Ejercicio 12](https://github.com/jeroberrig/trabajo1-POO-2026-2/tree/main/Ejercicio-12-Trabajador)
 [Ejercicio 14](https://github.com/jeroberrig/trabajo1-POO-2026-2/tree/main/Ejercicio-14-Potenciacion)
-[Ejercicio 17](https://github.com/jeroberrig/trabajo1-POO-2026-2/tree/main/Ejercicio-4-Edades)
+[Ejercicio 17](https://github.com/jeroberrig/trabajo1-POO-2026-2/tree/main/Ejercicio-17-Circulo)
