@@ -1,0 +1,246 @@
+{
+  "_type": "Project",
+  "_id": "AAAAAAFF+h6SjaM2Hec=",
+  "name": "Untitled",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "AAAAAAFF+qBWK6M3Z8Y=",
+      "_parent": { "$ref": "AAAAAAFF+h6SjaM2Hec=" },
+      "name": "Model",
+      "ownedElements": [
+        {
+          "_type": "UMLActivity",
+          "_id": "AAAAAAGA1A2B3C4D5E6=",
+          "_parent": { "$ref": "AAAAAAFF+qBWK6M3Z8Y=" },
+          "name": "CalculoSuma",
+          "ownedElements": [
+            {
+              "_type": "UMLActivityDiagram",
+              "_id": "AAAAAAGA1A2B3C4D5E7=",
+              "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E6=" },
+              "name": "DiagramaFlujoSuma",
+              "defaultDiagram": true,
+              "ownedViews": [
+                {
+                  "_type": "UMLControlNodeView",
+                  "_id": "view_init",
+                  "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E7=" },
+                  "model": { "$ref": "node_init" },
+                  "font": "Arial;13;0",
+                  "left": 300, "top": 40, "width": 20, "height": 20
+                },
+                {
+                  "_type": "UMLActionView",
+                  "_id": "view_act1",
+                  "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E7=" },
+                  "model": { "$ref": "node_act1" },
+                  "font": "Arial;13;0",
+                  "left": 180, "top": 100, "width": 260, "height": 40,
+                  "nameLabel": {
+                    "_type": "NodeLabelView",
+                    "_id": "view_act1_name",
+                    "_parent": { "$ref": "view_act1" },
+                    "model": { "$ref": "node_act1" },
+                    "font": "Arial;13;0",
+                    "left": 190, "top": 110, "width": 240, "height": 13,
+                    "text": "Definir: suma = 0.0, x = 20.0"
+                  }
+                },
+                {
+                  "_type": "UMLActionView",
+                  "_id": "view_act2",
+                  "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E7=" },
+                  "model": { "$ref": "node_act2" },
+                  "font": "Arial;13;0",
+                  "left": 180, "top": 170, "width": 260, "height": 40,
+                  "nameLabel": {
+                    "_type": "NodeLabelView",
+                    "_id": "view_act2_name",
+                    "_parent": { "$ref": "view_act2" },
+                    "model": { "$ref": "node_act2" },
+                    "font": "Arial;13;0",
+                    "left": 190, "top": 180, "width": 240, "height": 13,
+                    "text": "suma = suma + x"
+                  }
+                },
+                {
+                  "_type": "UMLActionView",
+                  "_id": "view_act3",
+                  "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E7=" },
+                  "model": { "$ref": "node_act3" },
+                  "font": "Arial;13;0",
+                  "left": 180, "top": 240, "width": 260, "height": 40,
+                  "nameLabel": {
+                    "_type": "NodeLabelView",
+                    "_id": "view_act3_name",
+                    "_parent": { "$ref": "view_act3" },
+                    "model": { "$ref": "node_act3" },
+                    "font": "Arial;13;0",
+                    "left": 190, "top": 250, "width": 240, "height": 13,
+                    "text": "Definir: y = 40.0"
+                  }
+                },
+                {
+                  "_type": "UMLActionView",
+                  "_id": "view_act4",
+                  "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E7=" },
+                  "model": { "$ref": "node_act4" },
+                  "font": "Arial;13;0",
+                  "left": 180, "top": 310, "width": 260, "height": 40,
+                  "nameLabel": {
+                    "_type": "NodeLabelView",
+                    "_id": "view_act4_name",
+                    "_parent": { "$ref": "view_act4" },
+                    "model": { "$ref": "node_act4" },
+                    "font": "Arial;13;0",
+                    "left": 190, "top": 320, "width": 240, "height": 13,
+                    "text": "x = x + (y ** 2)"
+                  }
+                },
+                {
+                  "_type": "UMLActionView",
+                  "_id": "view_act5",
+                  "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E7=" },
+                  "model": { "$ref": "node_act5" },
+                  "font": "Arial;13;0",
+                  "left": 180, "top": 380, "width": 260, "height": 40,
+                  "nameLabel": {
+                    "_type": "NodeLabelView",
+                    "_id": "view_act5_name",
+                    "_parent": { "$ref": "view_act5" },
+                    "model": { "$ref": "node_act5" },
+                    "font": "Arial;13;0",
+                    "left": 190, "top": 390, "width": 240, "height": 13,
+                    "text": "suma = suma + (x / y)"
+                  }
+                },
+                {
+                  "_type": "UMLActionView",
+                  "_id": "view_act6",
+                  "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E7=" },
+                  "model": { "$ref": "node_act6" },
+                  "font": "Arial;13;0",
+                  "left": 180, "top": 450, "width": 260, "height": 40,
+                  "nameLabel": {
+                    "_type": "NodeLabelView",
+                    "_id": "view_act6_name",
+                    "_parent": { "$ref": "view_act6" },
+                    "model": { "$ref": "node_act6" },
+                    "font": "Arial;13;0",
+                    "left": 190, "top": 460, "width": 240, "height": 13,
+                    "text": "Imprimir resultados"
+                  }
+                },
+                {
+                  "_type": "UMLControlNodeView",
+                  "_id": "view_fin",
+                  "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E7=" },
+                  "model": { "$ref": "node_fin" },
+                  "font": "Arial;13;0",
+                  "left": 296, "top": 520, "width": 26, "height": 26
+                },
+                {
+                  "_type": "UMLControlFlowView",
+                  "_id": "view_edge_1",
+                  "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E7=" },
+                  "model": { "$ref": "edge_1" },
+                  "font": "Arial;13;0",
+                  "head": { "$ref": "view_act1" },
+                  "tail": { "$ref": "view_init" },
+                  "lineStyle": 1,
+                  "points": "309:60;309:100"
+                },
+                {
+                  "_type": "UMLControlFlowView",
+                  "_id": "view_edge_2",
+                  "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E7=" },
+                  "model": { "$ref": "edge_2" },
+                  "font": "Arial;13;0",
+                  "head": { "$ref": "view_act2" },
+                  "tail": { "$ref": "view_act1" },
+                  "lineStyle": 1,
+                  "points": "309:140;309:170"
+                },
+                {
+                  "_type": "UMLControlFlowView",
+                  "_id": "view_edge_3",
+                  "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E7=" },
+                  "model": { "$ref": "edge_3" },
+                  "font": "Arial;13;0",
+                  "head": { "$ref": "view_act3" },
+                  "tail": { "$ref": "view_act2" },
+                  "lineStyle": 1,
+                  "points": "309:210;309:240"
+                },
+                {
+                  "_type": "UMLControlFlowView",
+                  "_id": "view_edge_4",
+                  "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E7=" },
+                  "model": { "$ref": "edge_4" },
+                  "font": "Arial;13;0",
+                  "head": { "$ref": "view_act4" },
+                  "tail": { "$ref": "view_act3" },
+                  "lineStyle": 1,
+                  "points": "309:280;309:310"
+                },
+                {
+                  "_type": "UMLControlFlowView",
+                  "_id": "view_edge_5",
+                  "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E7=" },
+                  "model": { "$ref": "edge_5" },
+                  "font": "Arial;13;0",
+                  "head": { "$ref": "view_act5" },
+                  "tail": { "$ref": "view_act4" },
+                  "lineStyle": 1,
+                  "points": "309:350;309:380"
+                },
+                {
+                  "_type": "UMLControlFlowView",
+                  "_id": "view_edge_6",
+                  "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E7=" },
+                  "model": { "$ref": "edge_6" },
+                  "font": "Arial;13;0",
+                  "head": { "$ref": "view_act6" },
+                  "tail": { "$ref": "view_act5" },
+                  "lineStyle": 1,
+                  "points": "309:420;309:450"
+                },
+                {
+                  "_type": "UMLControlFlowView",
+                  "_id": "view_edge_7",
+                  "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E7=" },
+                  "model": { "$ref": "edge_7" },
+                  "font": "Arial;13;0",
+                  "head": { "$ref": "view_fin" },
+                  "tail": { "$ref": "view_act6" },
+                  "lineStyle": 1,
+                  "points": "309:490;309:520"
+                }
+              ]
+            }
+          ],
+          "nodes": [
+            { "_type": "UMLInitialNode", "_id": "node_init", "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E6=" }, "name": "Inicio" },
+            { "_type": "UMLAction", "_id": "node_act1", "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E6=" }, "name": "Definir: suma = 0.0, x = 20.0" },
+            { "_type": "UMLAction", "_id": "node_act2", "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E6=" }, "name": "suma = suma + x" },
+            { "_type": "UMLAction", "_id": "node_act3", "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E6=" }, "name": "Definir: y = 40.0" },
+            { "_type": "UMLAction", "_id": "node_act4", "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E6=" }, "name": "x = x + (y ** 2)" },
+            { "_type": "UMLAction", "_id": "node_act5", "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E6=" }, "name": "suma = suma + (x / y)" },
+            { "_type": "UMLAction", "_id": "node_act6", "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E6=" }, "name": "Imprimir resultados" },
+            { "_type": "UMLActivityFinalNode", "_id": "node_fin", "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E6=" }, "name": "Fin" }
+          ],
+          "edges": [
+            { "_type": "UMLControlFlow", "_id": "edge_1", "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E6=" }, "source": { "$ref": "node_init" }, "target": { "$ref": "node_act1" } },
+            { "_type": "UMLControlFlow", "_id": "edge_2", "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E6=" }, "source": { "$ref": "node_act1" }, "target": { "$ref": "node_act2" } },
+            { "_type": "UMLControlFlow", "_id": "edge_3", "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E6=" }, "source": { "$ref": "node_act2" }, "target": { "$ref": "node_act3" } },
+            { "_type": "UMLControlFlow", "_id": "edge_4", "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E6=" }, "source": { "$ref": "node_act3" }, "target": { "$ref": "node_act4" } },
+            { "_type": "UMLControlFlow", "_id": "edge_5", "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E6=" }, "source": { "$ref": "node_act4" }, "target": { "$ref": "node_act5" } },
+            { "_type": "UMLControlFlow", "_id": "edge_6", "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E6=" }, "source": { "$ref": "node_act5" }, "target": { "$ref": "node_act6" } },
+            { "_type": "UMLControlFlow", "_id": "edge_7", "_parent": { "$ref": "AAAAAAGA1A2B3C4D5E6=" }, "source": { "$ref": "node_act6" }, "target": { "$ref": "node_fin" } }
+          ]
+        }
+      ]
+    }
+  ]
+}

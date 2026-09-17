@@ -1,0 +1,125 @@
+{
+  "_type": "Project",
+  "_id": "AAAAAAFF+h6SjaM2Hec=",
+  "name": "Untitled",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "AAAAAAFF+qBWK6M3Z8Y=",
+      "_parent": { "$ref": "AAAAAAFF+h6SjaM2Hec=" },
+      "name": "Model",
+      "ownedElements": [
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "AAAAAAGDiagCirculo",
+          "_parent": { "$ref": "AAAAAAFF+qBWK6M3Z8Y=" },
+          "name": "DiagramaCirculo",
+          "defaultDiagram": true,
+          "ownedViews": [
+            {
+              "_type": "UMLClassView",
+              "_id": "AAAAAAGViewCirculo",
+              "_parent": { "$ref": "AAAAAAGDiagCirculo" },
+              "model": { "$ref": "AAAAAAGClassCirculo" },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "AAAAAAGViewCircName",
+                  "_parent": { "$ref": "AAAAAAGViewCirculo" },
+                  "model": { "$ref": "AAAAAAGClassCirculo" },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "AAAAAAGViewCircNameLbl",
+                      "_parent": { "$ref": "AAAAAAGViewCircName" },
+                      "font": "Arial;13;1",
+                      "left": 105, "top": 105, "width": 300, "height": 13,
+                      "text": "Circulo"
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "AAAAAAGViewCircStereo",
+                      "_parent": { "$ref": "AAAAAAGViewCircName" },
+                      "font": "Arial;13;0",
+                      "left": 105, "top": 90, "width": 300, "height": 13,
+                      "visible": false, "text": ""
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "AAAAAAGViewCircProp",
+                      "_parent": { "$ref": "AAAAAAGViewCircName" },
+                      "font": "Arial;13;0",
+                      "left": 105, "top": 120, "width": 300, "height": 13,
+                      "visible": false, "text": ""
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 100, "top": 100, "width": 310, "height": 25
+                },
+                {
+                  "_type": "UMLAttributeCompartmentView",
+                  "_id": "AAAAAAGViewCircAttr",
+                  "_parent": { "$ref": "AAAAAAGViewCirculo" },
+                  "model": { "$ref": "AAAAAAGClassCirculo" },
+                  "font": "Arial;13;0",
+                  "left": 100, "top": 125, "width": 310, "height": 10
+                },
+                {
+                  "_type": "UMLOperationCompartmentView",
+                  "_id": "AAAAAAGViewCircOp",
+                  "_parent": { "$ref": "AAAAAAGViewCirculo" },
+                  "model": { "$ref": "AAAAAAGClassCirculo" },
+                  "font": "Arial;13;0",
+                  "left": 100, "top": 135, "width": 310, "height": 10
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 100, "top": 100, "width": 310, "height": 110,
+              "nameCompartment": { "$ref": "AAAAAAGViewCircName" },
+              "attributeCompartment": { "$ref": "AAAAAAGViewCircAttr" },
+              "operationCompartment": { "$ref": "AAAAAAGViewCircOp" }
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "AAAAAAGClassCirculo",
+          "_parent": { "$ref": "AAAAAAFF+qBWK6M3Z8Y=" },
+          "name": "Circulo",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "attr_radio",
+              "_parent": { "$ref": "AAAAAAGClassCirculo" },
+              "name": "radio",
+              "visibility": "protected",
+              "type": "float"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "op_area",
+              "_parent": { "$ref": "AAAAAAGClassCirculo" },
+              "name": "calcular_area",
+              "visibility": "public",
+              "parameters": [
+                { "_type": "UMLParameter", "_id": "ret_area", "_parent": { "$ref": "op_area" }, "type": "float", "direction": "return" }
+              ]
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "op_longitud",
+              "_parent": { "$ref": "AAAAAAGClassCirculo" },
+              "name": "calcular_longitud",
+              "visibility": "public",
+              "parameters": [
+                { "_type": "UMLParameter", "_id": "ret_long", "_parent": { "$ref": "op_longitud" }, "type": "float", "direction": "return" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "_type": "Project",
+  "_id": "AAAAAAFF+h6SjaM2Hec=",
+  "name": "Untitled",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "AAAAAAFF+qBWK6M3Z8Y=",
+      "_parent": { "$ref": "AAAAAAFF+h6SjaM2Hec=" },
+      "name": "Model",
+      "ownedElements": [
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "AAAAAAGDiagEmpleado",
+          "_parent": { "$ref": "AAAAAAFF+qBWK6M3Z8Y=" },
+          "name": "DiagramaEmpleado",
+          "defaultDiagram": true,
+          "ownedViews": [
+            {
+              "_type": "UMLClassView",
+              "_id": "AAAAAAGViewEmpleado",
+              "_parent": { "$ref": "AAAAAAGDiagEmpleado" },
+              "model": { "$ref": "AAAAAAGClassEmpleado" },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "AAAAAAGViewEmpName",
+                  "_parent": { "$ref": "AAAAAAGViewEmpleado" },
+                  "model": { "$ref": "AAAAAAGClassEmpleado" },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "AAAAAAGViewEmpNameLbl",
+                      "_parent": { "$ref": "AAAAAAGViewEmpName" },
+                      "font": "Arial;13;1",
+                      "left": 105, "top": 105, "width": 320, "height": 13,
+                      "text": "Empleado"
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 100, "top": 100, "width": 330, "height": 25
+                },
+                {
+                  "_type": "UMLAttributeCompartmentView",
+                  "_id": "AAAAAAGViewEmpAttr",
+                  "_parent": { "$ref": "AAAAAAGViewEmpleado" },
+                  "model": { "$ref": "AAAAAAGClassEmpleado" },
+                  "font": "Arial;13;0",
+                  "left": 100, "top": 125, "width": 330, "height": 10
+                },
+                {
+                  "_type": "UMLOperationCompartmentView",
+                  "_id": "AAAAAAGViewEmpOp",
+                  "_parent": { "$ref": "AAAAAAGViewEmpleado" },
+                  "model": { "$ref": "AAAAAAGClassEmpleado" },
+                  "font": "Arial;13;0",
+                  "left": 100, "top": 135, "width": 330, "height": 10
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 100, "top": 100, "width": 330, "height": 140,
+              "nameCompartment": { "$ref": "AAAAAAGViewEmpName" },
+              "attributeCompartment": { "$ref": "AAAAAAGViewEmpAttr" },
+              "operationCompartment": { "$ref": "AAAAAAGViewEmpOp" }
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "AAAAAAGClassEmpleado",
+          "_parent": { "$ref": "AAAAAAFF+qBWK6M3Z8Y=" },
+          "name": "Empleado",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "attr_horas",
+              "_parent": { "$ref": "AAAAAAGClassEmpleado" },
+              "name": "horas_trabajadas",
+              "visibility": "protected",
+              "type": "int"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "attr_valor",
+              "_parent": { "$ref": "AAAAAAGClassEmpleado" },
+              "name": "valor_hora",
+              "visibility": "protected",
+              "type": "float"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "attr_porcentaje",
+              "_parent": { "$ref": "AAAAAAGClassEmpleado" },
+              "name": "porcentaje_retencion",
+              "visibility": "protected",
+              "type": "float"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "op_bruto",
+              "_parent": { "$ref": "AAAAAAGClassEmpleado" },
+              "name": "calcular_salario_bruto",
+              "visibility": "public",
+              "parameters": [
+                { "_type": "UMLParameter", "_id": "r1", "_parent": { "$ref": "op_bruto" }, "type": "float", "direction": "return" }
+              ]
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "op_retencion",
+              "_parent": { "$ref": "AAAAAAGClassEmpleado" },
+              "name": "calcular_retencion",
+              "visibility": "public",
+              "parameters": [
+                { "_type": "UMLParameter", "_id": "r2", "_parent": { "$ref": "op_retencion" }, "type": "float", "direction": "return" }
+              ]
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "op_neto",
+              "_parent": { "$ref": "AAAAAAGClassEmpleado" },
+              "name": "calcular_salario_neto",
+              "visibility": "public",
+              "parameters": [
+                { "_type": "UMLParameter", "_id": "r3", "_parent": { "$ref": "op_neto" }, "type": "float", "direction": "return" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

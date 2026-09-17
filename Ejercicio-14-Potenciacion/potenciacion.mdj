@@ -1,0 +1,119 @@
+{
+  "_type": "Project",
+  "_id": "AAAAAAFF+h6SjaM2Hec=",
+  "name": "Untitled",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "AAAAAAFF+qBWK6M3Z8Y=",
+      "_parent": { "$ref": "AAAAAAFF+h6SjaM2Hec=" },
+      "name": "Model",
+      "ownedElements": [
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "AAAAAAGDiagPotenciacion",
+          "_parent": { "$ref": "AAAAAAFF+qBWK6M3Z8Y=" },
+          "name": "DiagramaPotenciacion",
+          "defaultDiagram": true,
+          "ownedViews": [
+            {
+              "_type": "UMLClassView",
+              "_id": "AAAAAAGViewPotenciacion",
+              "_parent": { "$ref": "AAAAAAGDiagPotenciacion" },
+              "model": { "$ref": "AAAAAAGClassPotenciacion" },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "AAAAAAGViewPotName",
+                  "_parent": { "$ref": "AAAAAAGViewPotenciacion" },
+                  "model": { "$ref": "AAAAAAGClassPotenciacion" },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "AAAAAAGViewPotNameLbl",
+                      "_parent": { "$ref": "AAAAAAGViewPotName" },
+                      "font": "Arial;13;1",
+                      "left": 105, "top": 105, "width": 300, "height": 13,
+                      "text": "Potenciacion"
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "AAAAAAGViewPotStereo",
+                      "_parent": { "$ref": "AAAAAAGViewPotName" },
+                      "font": "Arial;13;0",
+                      "left": 105, "top": 90, "width": 300, "height": 13,
+                      "visible": false, "text": ""
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "AAAAAAGViewPotProp",
+                      "_parent": { "$ref": "AAAAAAGViewPotName" },
+                      "font": "Arial;13;0",
+                      "left": 105, "top": 120, "width": 300, "height": 13,
+                      "visible": false, "text": ""
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 100, "top": 100, "width": 310, "height": 25
+                },
+                {
+                  "_type": "UMLAttributeCompartmentView",
+                  "_id": "AAAAAAGViewPotAttr",
+                  "_parent": { "$ref": "AAAAAAGViewPotenciacion" },
+                  "model": { "$ref": "AAAAAAGClassPotenciacion" },
+                  "font": "Arial;13;0",
+                  "left": 100, "top": 125, "width": 310, "height": 10
+                },
+                {
+                  "_type": "UMLOperationCompartmentView",
+                  "_id": "AAAAAAGViewPotOp",
+                  "_parent": { "$ref": "AAAAAAGViewPotenciacion" },
+                  "model": { "$ref": "AAAAAAGClassPotenciacion" },
+                  "font": "Arial;13;0",
+                  "left": 100, "top": 135, "width": 310, "height": 10
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 100, "top": 100, "width": 310, "height": 90,
+              "nameCompartment": { "$ref": "AAAAAAGViewPotName" },
+              "attributeCompartment": { "$ref": "AAAAAAGViewPotAttr" },
+              "operationCompartment": { "$ref": "AAAAAAGViewPotOp" }
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "AAAAAAGClassPotenciacion",
+          "_parent": { "$ref": "AAAAAAFF+qBWK6M3Z8Y=" },
+          "name": "Potenciacion",
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "op_cuadrado",
+              "_parent": { "$ref": "AAAAAAGClassPotenciacion" },
+              "name": "calcular_cuadrado",
+              "visibility": "public",
+              "isStatic": true,
+              "parameters": [
+                { "_type": "UMLParameter", "_id": "param_num1", "_parent": { "$ref": "op_cuadrado" }, "name": "numero", "type": "float" },
+                { "_type": "UMLParameter", "_id": "ret_1", "_parent": { "$ref": "op_cuadrado" }, "type": "float", "direction": "return" }
+              ]
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "op_cubo",
+              "_parent": { "$ref": "AAAAAAGClassPotenciacion" },
+              "name": "calcular_cubo",
+              "visibility": "public",
+              "isStatic": true,
+              "parameters": [
+                { "_type": "UMLParameter", "_id": "param_num2", "_parent": { "$ref": "op_cubo" }, "name": "numero", "type": "float" },
+                { "_type": "UMLParameter", "_id": "ret_2", "_parent": { "$ref": "op_cubo" }, "type": "float", "direction": "return" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
