@@ -4,6 +4,6 @@ Repositorio POO 2026-2 Universidad: UNIVERSIDAD NACIONAL DE COLOMBIA.
 
 Actividad: Actividad 1: Individual.
 
-Estudiante: Jorge Andrés Teherán Estrada.
+Estudiante: Jerónimo Berrio García.
 
 Docente: Walter Hugo Arboleda Mazo.
