@@ -10,4 +10,4 @@ Docente: Walter Hugo Arboleda Mazo.
 
 # Contenido de los ejercicios
 
-[Ejercicio 4](https://www.tu-enlace.com)
+[Ejercicio 4](https://github.com/jeroberrig/trabajo1-POO-2026-2/tree/main/Ejercicio-12-Trabajador)
